@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Meu Portifólio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Bloco Principal-->
+    <section class="hero-section bg-light text-center py-5">
+        <div class="container">
+            <img src="img/IMG_20231225_003917524.jpg" alt="Meu Avatar" class="rounded-circle" width="280">
+            <h1 class="display-4">Olá, Meu nome é Lais Rodrigues</h1>
+            <p class="lead">Desenvolvedora | Apaixonada por Tecnologia | Sempre Aprendendo :D</p>
+            <p class="lead">Estudante da Fatec MC</p>
+        </div>
+    </section>
+
+    <!--Sobre Mim-->
+    <section id="sobre">
+        <div class="container sobremim">
+            <h2>Sobre Mim</h2>
+            <p>Sou Uma Estudante de Analise e Desenvolvimento de Sistemas (ADS) da Fatec Mogi das Cruzes. <br>
+                Sempre estou querendo aprender novas tecnologias e me desenvolver cada vez mais em busca de ser uma grande tecnóloga futuramente.</p>
+        </div>
+    </section>
+
+    <!--Projetos-->
+    <section id="projetos" class="py-5 bg-light">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="row">
+                <!--projeto-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Captura de tela 2024-08-22 195413.png" alt="Figma" width="300px">
+                        <h5 class="card-title">Projeto 1 - Centauro Figma</h5>
+                        <p class="card-text">Prototipo mobile feito pelo Figma, baseado no site da Centauro <br> Ainda em Construção...</p>  
+                        <a href="https://www.figma.com/proto/E9qI9KECsZDMYlSUfxs4TQ/Projeto-Centauro?node-id=1-2&starting-point-node-id=1%3A2" class="btn btn-primary vermais">ver mais?</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/coming soon.jpg" alt="exemplo" width="300px">
+                        <h5 class="card-title">Projeto 2 </h5>
+                        <p class="card-text">Em Contrução</p>  
+                        <a href="#" class="btn btn-primary vermais">ver mais?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Habilidades-->
+    <section id="habilidades" class="py-5">
+        <div class="container">
+            <h2 class="habili">Minhas Habilidades</h2>
+            <div class="progress mb-3">
+                <div class="progress-bar barrinha" role="progressbar" style="width: 80%;" >HTML</div>
+            </div> 
+            <div class="progress mb-3">
+                <div class="progress-bar barrinha" role="progressbar" style="width: 70%;">CSS</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar barrinha" role="progressbar" style="width: 30%;">JavaScript</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar barrinha" role="progressbar" style="width: 40%;">Figma</div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section id="contatos" class="py-5 bg-light">
+        <div class="container">
+            <h2>Entre em Contato :)</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input id="nome" type="text" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input id="email" type="email" class="form-control" placeholder="seunome@gmail.com" required>
+                </div>
+                <div class="mb-3">
+                    <label for="assunto" class="form-label">Assunto</label>
+                    <input id="assunto" type="text" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea id="mensagem" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <p class="mt-4">Email: laisrodrigues473@gmail.com | Telefone: (11) 91334-4060</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;2024 Lais Rodrigues.</p>
+        <div>
+            <img src="img/linkedin.jpeg" alt="linkedin" width="20px"><a href="https://www.linkedin.com/in/lais-rodrigues-a74999250/" class="text-white me-2">Linkedin</a> |
+            <img class="img-fluid rounded-circle" src="img/github transparente.png" alt="github" width="20px"><a href="https://github.com" class="text-white">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

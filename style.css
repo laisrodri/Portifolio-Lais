@@ -1,0 +1,146 @@
+/* Globais */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* Seções */
+/* Estilo para todas as seções */
+section {
+    background-color: #243057; /* Cor de fundo das seções */
+    
+}
+
+/* Seção Hero (cabeçalho) */
+.hero-section {
+    background-color: #343a40;
+    
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+section .sobremim{
+    color: #ffffff;
+    padding: 30px;
+}
+
+.habili {
+    color: #fff;
+}
+
+section .row{
+    margin-top: 30px;
+    margin: 10px;
+}
+
+/* Estilo para Navbar */
+.navbar {
+    padding: 1rem;
+    background: linear-gradient(45deg, #0f1216, #441e8b);
+}
+
+.navbar-nav .nav-link {
+    margin-left: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+/* Estilo para os cards de projetos */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 305px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Correção da animação */
+}
+
+.card img {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    
+}
+
+.card h5 {
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
+
+div .vermais{
+    background-color: #51439b;
+    border-color: #331e9c;
+}
+
+
+
+/* Estilo para as barras de progresso */
+.progress-bar {
+    transition: width 1s ease-in-out;
+    color: rgb(29, 4, 4);
+    background-color: #441e8b;
+}
+
+div .barrinha{
+    background-color: #51439b;
+}
+
+/* Estilo para o formulário de contato */
+form .form-control {
+    border-radius: 5px;
+    border: 1.5px solid #b9b2b1;
+    padding: 10px;
+}
+
+.form-label {
+    color: #000000; 
+}
+
+form .btn-primary {
+    background-color: #331e9c;
+    border-color: #51439b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #243057;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 17px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+/* Imagem fluida com fundo */
+.img-fluid {
+    background-color: #d8d0d0;
+}
